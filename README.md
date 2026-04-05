@@ -20,7 +20,7 @@ Movie_Sentiment_Analysis/
 │
 ├── IMDB_Sentiment_Analysis_Visualizations 
 ├── IMDB Dataset.7z                               # Source dataset (Kaggle)
-├── Movie_Sentiment_Analysis.ipynb                 # Main notebook                 
+├── IMDB_Movie_Sentiment_Analysis.ipynb           # Main notebook                 
 └── README.md
 ```
 
@@ -110,6 +110,13 @@ Even when another model scores slightly higher on the test set, Logistic Regress
 Rule-based negation handling fails for double negatives such as "not bad" (which means "good" in English). Solving this properly requires context-aware models like BERT which understand sentence meaning. This is a well-known open problem in classical sentiment analysis.
 
 ---
+## Future Improvements
 
+- Fine-tune a BERT model to handle context-dependent sentiment 
+  (double negatives, sarcasm)
+- Deploy as a Flask web app with a real-time prediction endpoint
+- Add SHAP values for per-prediction explainability
+- Extend to multiclass rating prediction (1–5 stars)
+- Apply RandomizedSearchCV for broader hyperparameter search
 
 
