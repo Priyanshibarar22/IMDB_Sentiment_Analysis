@@ -18,9 +18,9 @@ Online platforms receive millions of movie reviews daily. Manually categorizing 
 ```
 Movie_Sentiment_Analysis/
 │
-├── Movie_Sentiment_Analysis.ipynb                 # Main notebook
-├── IMDB Dataset.csv                               # Source dataset (Kaggle)
-├── IMDB_Movie_Sentiment_Analysis_Visualizations                 
+├── IMDB_Sentiment_Analysis_Visualizations 
+├── IMDB Dataset.7z                               # Source dataset (Kaggle)
+├── Movie_Sentiment_Analysis.ipynb                 # Main notebook                 
 └── README.md
 ```
 
